@@ -1,0 +1,42 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./scrollReveal.js"
+      },
+      {
+        "type": "script",
+        "src": "./install/helper.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "elements": {
+        "order": 1,
+        "title": "Elements",
+        "description": "Select the elements you'd like to reveal when they're scrolled to",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "title": "Elements",
+          "properties": {
+            "selector": {
+              "order": 1,
+              "title": "Element",
+              "type": "string",
+              "format": "selector"
+            },
+            "animation": {
+              "order": 2,
+              "title": "Custom Animation (optional)",
+              "description": "Custom animation using [Scroll Reveal keywords](https://github.com/julianlloyd/scrollReveal.js/wiki/Keywords)",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
