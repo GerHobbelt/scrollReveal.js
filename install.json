@@ -31,7 +31,7 @@
             "animation": {
               "order": 2,
               "title": "Custom Animation (optional)",
-              "description": "Custom animation using <a href='https://github.com/julianlloyd/scrollReveal.js/wiki/Keywords'>Scroll Reveal keywords</a>",
+              "description": "Custom animation using <a href='https://github.com/julianlloyd/scrollReveal.js/wiki/Keywords' target='_blank'>Scroll Reveal keywords</a>",
               "type": "string"
             }
           }
