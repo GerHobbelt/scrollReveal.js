@@ -16,7 +16,7 @@
       "elements": {
         "order": 1,
         "title": "Elements",
-        "description": "Select the elements you'd like to reveal when they're scrolled to",
+        "description": "Select the elements you'd like to reveal when they become visible in the viewport.",
         "type": "array",
         "items": {
           "type": "object",
@@ -31,7 +31,7 @@
             "animation": {
               "order": 2,
               "title": "Custom Animation (optional)",
-              "description": "Custom animation using [Scroll Reveal keywords](https://github.com/julianlloyd/scrollReveal.js/wiki/Keywords)",
+              "description": "Custom animation using <a href="https://github.com/julianlloyd/scrollReveal.js/wiki/Keywords">Scroll Reveal keywords</a>",
               "type": "string"
             }
           }
